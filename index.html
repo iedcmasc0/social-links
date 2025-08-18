@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEDC MASC Social Links</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide (correct UMD build) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>
+      // Initialize icons once Lucide is ready
+      document.addEventListener('DOMContentLoaded', () => {
+        if (window.lucide) lucide.createIcons();
+      });
+    </script>
+  </head>
+
+  <body class="bg-gradient-to-b from-blue-50 to-white min-h-screen font-sans">
+    <!-- Header -->
+    <header class="text-center py-10">
+      <img
+        src="./iedcLogo-Photoroom.png"
+        alt="IEDC Logo"
+        class="w-28 h-28 mx-auto mb-4 bg-white rounded-full shadow-lg p-2"
+      />
+      <h1 class="text-3xl font-extrabold text-blue-800 tracking-wide">IEDC MASC</h1>
+      <p class="text-blue-500 font-medium">Connect with us</p>
+    </header>
+
+    <!-- Main -->
+    <main class="max-w-4xl mx-auto px-6">
+      <!-- WhatsApp Section -->
+      <section class="mb-8 text-center">
+        <h2 class="text-xl font-semibold text-blue-700 mb-3">Join Our WhatsApp Community</h2>
+        <a
+          href="https://whatsapp.com"
+          target="_blank"
+          class="inline-block bg-green-500 text-white px-6 py-3 rounded-xl shadow-md hover:scale-105 transition font-medium"
+        >Join WhatsApp</a>
+      </section>
+
+      <!-- Social Links Grid -->
+      <section>
+        <h2 class="text-xl font-semibold text-blue-700 mb-6 text-center">Follow Us on Social Media</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <a href="https://instagram.com" target="_blank"
+             class="flex flex-col items-center p-6 bg-white rounded-2xl shadow hover:shadow-xl hover:scale-105 transition">
+            <i data-lucide="instagram" class="w-10 h-10 text-pink-500 mb-3"></i>
+            <span class="font-semibold text-blue-800">Instagram (Official)</span>
+          </a>
+
+          <a href="https://instagram.com" target="_blank"
+             class="flex flex-col items-center p-6 bg-white rounded-2xl shadow hover:shadow-xl hover:scale-105 transition">
+            <i data-lucide="instagram" class="w-10 h-10 text-pink-500 mb-3"></i>
+            <span class="font-semibold text-blue-800">Instagram (Unofficial)</span>
+          </a>
+
+          <a href="https://x.com" target="_blank"
+             class="flex flex-col items-center p-6 bg-white rounded-2xl shadow hover:shadow-xl hover:scale-105 transition">
+            <i data-lucide="twitter" class="w-10 h-10 text-blue-500 mb-3"></i>
+            <span class="font-semibold text-blue-800">X (Twitter)</span>
+          </a>
+
+          <a href="https://youtube.com" target="_blank"
+             class="flex flex-col items-center p-6 bg-white rounded-2xl shadow hover:shadow-xl hover:scale-105 transition">
+            <i data-lucide="youtube" class="w-10 h-10 mb-3 text-red-800"></i>
+            <span class="font-semibold text-blue-800">YouTube</span>
+          </a>
+
+          <a href="https://facebook.com" target="_blank"
+             class="flex flex-col items-center p-6 bg-white rounded-2xl shadow hover:shadow-xl hover:scale-105 transition">
+            <i data-lucide="facebook" class="w-10 h-10 text-blue-600 mb-3"></i>
+            <span class="font-semibold text-blue-800">Facebook</span>
+          </a>
+
+          <a href="https://spotify.com" target="_blank"
+             class="flex flex-col items-center p-6 bg-white rounded-2xl shadow hover:shadow-xl hover:scale-105 transition">
+            <i data-lucide="podcast" class="w-10 h-10 text-green-500 mb-3"></i>
+            <span class="font-semibold text-blue-800">Spotify</span>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
