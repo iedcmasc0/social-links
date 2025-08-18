@@ -62,7 +62,7 @@
         position: absolute;
         border-radius: 50%;
         filter: blur(80px);
-        opacity: 0.5;
+        opacity: 0.8;
         animation: float 20s infinite alternate;
       }
       @keyframes float {
@@ -78,9 +78,19 @@
 
   <body class="font-sans relative">
     <!-- Background blobs -->
-    <div class="blob w-72 h-72 bg-blue-400 top-10 left-10"></div>
+    <div class="blob w-72 h-72 bg-blue-400 opacity-50 top-10 left-10"></div>
     <div class="blob w-96 h-96 bg-pink-300 bottom-0 right-10"></div>
     <div class="blob w-64 h-64 bg-purple-400 bottom-20 left-1/3"></div>
+    <!-- Blobs near social links section -->
+    <div class="blob w-56 h-56 bg-cyan-300 top-[70%] left-0"></div>
+    <div class="blob w-40 h-40 bg-yellow-200 top-[75%] right-24"></div>
+    <div class="blob w-52 h-52 bg-fuchsia-300 bottom-24 left-1/4"></div>
+    <div class="blob w-44 h-44 bg-teal-200 bottom-10 right-1/3"></div>
+    <!-- More blobs for social links section -->
+    <div class="blob w-36 h-36 bg-indigo-300 top-[62%] left-[20%]"></div>
+    <div class="blob w-32 h-32 bg-emerald-200 top-[65%] right-[18%]"></div>
+    <div class="blob w-28 h-28 bg-orange-200 top-[60%] left-[45%]"></div>
+    <div class="blob w-24 h-24 bg-sky-300 top-[68%] right-[35%]"></div>
 
     <!-- Hero -->
     <header class="relative text-center py-10 z-10">
